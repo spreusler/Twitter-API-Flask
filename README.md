@@ -6,40 +6,26 @@ Do you want on-demand sentiment analysis for a given keyword? This project serve
 
 - templates - contains html source files for Flask render_template()
 - Procfile - Optional for deployment. This project is live on Heroku. Gunicorn is a WSGI HTTP Server Interface for Python.
+- app.py - Contains Flask logic
+- config_demo.py - File for credentials. Replace variables with your own data.
+- requirements.py - Python libraries and dependencies for the project
+- utils.py - Twitter API and sentiment analysis logic
 
 ## Getting Started
 
-
+- Download repository
+- Insert your own credentials in ``` config_demo.py ``` and rename it to ```config.py```
+- Local: Run application with ```python app.py```
+- Optional: Deployment to Heroku
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+- Python 3.6
+- Install libraries via ```pip install -r requirements.txt```
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+- Optional: Deployment on Heroku with Gunicorn (Procfile)
 
 ## License
 
