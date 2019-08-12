@@ -2,6 +2,8 @@
 
 Do you want on-demand sentiment analysis for a given keyword? This project serves you [Twitter API](https://developer.twitter.com/en/apply-for-access) access on a [Flask](https://github.com/pallets/flask) framework. Simply enter keyword and you receive the latest tweets and their sentiment via [Textblob](https://github.com/sloria/TextBlob).
 
+Test the [live demo on Heroku](https://twitter-sentiment-demo.herokuapp.com).
+
 ## Files and Folders
 
 - templates - Folder contains html source files for Flask render_template()
