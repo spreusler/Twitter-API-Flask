@@ -28,7 +28,7 @@ Test the [live demo on Heroku](https://twitter-sentiment-demo.herokuapp.com).
 
 ## Deployment
 
-- Optional: Deployment on Heroku with Gunicorn (Procfile)
+- Optional: Deployment to Heroku with Gunicorn (Procfile)
 
 ## License
 
