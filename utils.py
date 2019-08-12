@@ -1,4 +1,4 @@
-#Bibliotheken
+# Libraries
 import nltk
 nltk.download('punkt')
 import tweepy
@@ -9,6 +9,7 @@ import pandas as pd
 import config
 
 def authenticate():
+	"""Authenticate and return API access"""
     auth = tweepy.OAuthHandler(config.consumer_key, config.consumer_secret)
     auth.set_access_token(config.access_token, config.access_token_secret)
 
@@ -16,14 +17,17 @@ def authenticate():
     return api
 
 def searchTweets(string):
+	"""Search for tweets"""
     public_tweets = authenticate().search(string)
     return public_tweets
 
 def analyzeTweet(tweet):
+	"""Analyze tweets with Textblob"""
     analysis = TextBlob(tweet.text)  
     return analysis.sentiment
 
 def createDataFrame(searchValue):
+	"""Create Dataframe"""
     api = authenticate()
     public_tweets = api.search(searchValue)
     df = pd.DataFrame()
