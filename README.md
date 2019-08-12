@@ -1,10 +1,10 @@
 # Twitter-API-Flask
 
-Do you want on-demand sentiment analysis for a given keyword? This project serves you Twitter API access on a Flask framework. Simply enter keyword and you receive the latest tweets and their sentiment via Textblob.
+Do you want on-demand sentiment analysis for a given keyword? This project serves you [Twitter API](https://developer.twitter.com/en/apply-for-access) access on a [Flask](https://github.com/pallets/flask) framework. Simply enter keyword and you receive the latest tweets and their sentiment via [Textblob](https://github.com/sloria/TextBlob).
 
 ## Files and Folders
 
-- templates - contains html source files for Flask render_template()
+- templates - Folder contains html source files for Flask render_template()
 - Procfile - Optional for deployment. This project is live on Heroku. Gunicorn is a WSGI HTTP Server Interface for Python.
 - app.py - Contains Flask logic
 - config_demo.py - File for credentials. Replace variables with your own data.
@@ -20,6 +20,7 @@ Do you want on-demand sentiment analysis for a given keyword? This project serve
 
 ### Prerequisites
 
+- [Twitter API](https://developer.twitter.com/en/apply-for-access) access
 - Python 3.6
 - Install libraries via ```pip install -r requirements.txt```
 
